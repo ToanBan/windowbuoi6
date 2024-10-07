@@ -1,0 +1,12 @@
+D:\Workspace\laptrinhwindow\Buoi6\DAL\bin\Debug\DAL.dll.config
+D:\Workspace\laptrinhwindow\Buoi6\DAL\bin\Debug\DAL.dll
+D:\Workspace\laptrinhwindow\Buoi6\DAL\bin\Debug\DAL.pdb
+D:\Workspace\laptrinhwindow\Buoi6\DAL\bin\Debug\EntityFramework.dll
+D:\Workspace\laptrinhwindow\Buoi6\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workspace\laptrinhwindow\Buoi6\DAL\bin\Debug\EntityFramework.xml
+D:\Workspace\laptrinhwindow\Buoi6\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workspace\laptrinhwindow\Buoi6\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Workspace\laptrinhwindow\Buoi6\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Workspace\laptrinhwindow\Buoi6\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Workspace\laptrinhwindow\Buoi6\DAL\obj\Debug\DAL.dll
+D:\Workspace\laptrinhwindow\Buoi6\DAL\obj\Debug\DAL.pdb

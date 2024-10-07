@@ -1,0 +1,15 @@
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\BUS.dll.config
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\BUS.dll
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\BUS.pdb
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\DAL.dll
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\EntityFramework.dll
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\DAL.pdb
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\DAL.dll.config
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\EntityFramework.xml
+D:\Workspace\laptrinhwindow\Buoi6\BUS\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workspace\laptrinhwindow\Buoi6\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Workspace\laptrinhwindow\Buoi6\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Workspace\laptrinhwindow\Buoi6\BUS\obj\Debug\BUS.csproj.Up2Date
+D:\Workspace\laptrinhwindow\Buoi6\BUS\obj\Debug\BUS.dll
+D:\Workspace\laptrinhwindow\Buoi6\BUS\obj\Debug\BUS.pdb

@@ -1,0 +1,10 @@
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\bin\Debug\baitap1.exe.config
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\bin\Debug\baitap1.exe
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\bin\Debug\baitap1.pdb
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\obj\Debug\baitap1.csproj.AssemblyReference.cache
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\obj\Debug\baitap1.Properties.Resources.resources
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\obj\Debug\baitap1.csproj.GenerateResource.cache
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\obj\Debug\baitap1.csproj.CoreCompileInputs.cache
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\obj\Debug\baitap1.exe
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\obj\Debug\baitap1.pdb
+D:\Workspace\laptrinhwindow\Buoi6\baitap1\obj\Debug\baitap1.Form1.resources
