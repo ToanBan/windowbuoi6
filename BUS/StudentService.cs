@@ -70,14 +70,6 @@ namespace BUS
                 {
                     return "Sinh viên không tồn tại!";
                 }
-                if (updatedStudent.StudentID != student.StudentID)
-                {
-                    if (context.Students.Any(s => s.StudentID == updatedStudent.StudentID))
-                    {
-                        return "Mã sinh viên mới đã tồn tại.";
-                    }
-                    student.StudentID = updatedStudent.StudentID;
-                }
                 student.FullName = updatedStudent.FullName;
                 student.FacultyID = updatedStudent.FacultyID;
                 student.AverageScore = updatedStudent.AverageScore;
@@ -89,5 +81,6 @@ namespace BUS
                 return $"Lỗi khi cập nhật sinh viên: {ex.Message}";
             }
         }
+
     }
 }

@@ -181,11 +181,10 @@ namespace baitap1
             {
                 try
                 {
-                    int originalStudentID = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["colMa"].Value);
                     var confirmResult = MessageBox.Show("Bạn có chắc chắn muốn chỉnh sửa sinh viên này?",
-                                             "Xác nhận chỉnh sửa!",
-                                             MessageBoxButtons.YesNo,
-                                             MessageBoxIcon.Question);
+                                                        "Xác nhận chỉnh sửa!",
+                                                        MessageBoxButtons.YesNo,
+                                                        MessageBoxIcon.Question);
                     if (confirmResult == DialogResult.Yes)
                     {
                         if (!int.TryParse(txtMa.Text.Trim(), out int newStudentID))
@@ -194,43 +193,45 @@ namespace baitap1
                             txtMa.Focus();
                             return;
                         }
+
                         string fullName = txtName.Text.Trim();
-                        if (string.IsNullOrEmpty(fullName))
+                        if (string.IsNullOrWhiteSpace(fullName))
                         {
                             MessageBox.Show("Tên sinh viên không được để trống.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             txtName.Focus();
                             return;
                         }
+
                         if (txtKhoa.SelectedValue == null || (int)txtKhoa.SelectedValue == 0)
                         {
                             MessageBox.Show("Vui lòng chọn Khoa.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             txtKhoa.Focus();
                             return;
                         }
+
                         int facultyID = (int)txtKhoa.SelectedValue;
-                        if (!int.TryParse(txtKhoa.SelectedValue?.ToString(), out int majorID) || majorID == 0)
-                        {
-                            MessageBox.Show("Vui lòng chọn Chuyên Ngành.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            txtKhoa.Focus();
-                            return;
-                        }
+
                         if (!decimal.TryParse(txtDiem.Text.Trim(), out decimal averageScore))
                         {
                             MessageBox.Show("Vui lòng nhập định dạng số hợp lệ cho Điểm trung bình.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             txtDiem.Focus();
                             return;
                         }
+                        
+
                         string avatar = "test.jpg"; 
+
                         Student updatedStudent = new Student()
                         {
                             StudentID = newStudentID,
                             FullName = fullName,
                             FacultyID = facultyID,
                             AverageScore = averageScore,
-                            MajorID = majorID,
                             Avatar = avatar
                         };
+
                         string result = student.EditStudent(updatedStudent);
+
                         MessageBox.Show(result);
 
                         if (result.Contains("thành công"))
@@ -257,6 +258,7 @@ namespace baitap1
                 MessageBox.Show("Vui lòng chọn một sinh viên để chỉnh sửa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
 
     }
 }
